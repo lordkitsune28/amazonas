@@ -1,0 +1,65 @@
+[debug] [2022-03-14T15:04:33.628Z] ----------------------------------------------------------------------
+[debug] [2022-03-14T15:04:33.653Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\carlo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-03-14T15:04:33.657Z] CLI Version:   10.2.2
+[debug] [2022-03-14T15:04:33.658Z] Platform:      win32
+[debug] [2022-03-14T15:04:33.659Z] Node Version:  v16.14.0
+[debug] [2022-03-14T15:04:33.666Z] Time:          Mon Mar 14 2022 10:04:33 GMT-0500 (hora estándar de Colombia)
+[debug] [2022-03-14T15:04:33.676Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-14T15:04:38.761Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-14T15:04:38.764Z] > authorizing via signed-in user (carlosassasin1505@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\carlo\OneDrive\Desktop\sprint3
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-03-14T15:05:43.100Z] Using project from CLI flag: inserte-nombre
+[debug] [2022-03-14T15:05:43.352Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inserte-nombre [none]
+[debug] [2022-03-14T15:05:44.686Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inserte-nombre 200
+[debug] [2022-03-14T15:05:44.689Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inserte-nombre {"projectId":"inserte-nombre","projectNumber":"675157040922","displayName":"inserte nombre","name":"projects/inserte-nombre","resources":{"hostingSite":"inserte-nombre"},"state":"ACTIVE"}
+[info] i  Using project inserte-nombre (inserte nombre) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at C:\Users\carlo\OneDrive\Desktop\sprint3 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=183220844&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-03-14T15:06:38.577Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"3b54a96ac5dec9efe26b","redirect_uri":"http://localhost:9005","state":"183220844"}
+[debug] [2022-03-14T15:06:39.406Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 14 Mar 2022 15:07:16 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"e94c2ea95657d5e19f2f2c5dcb5e0c43\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com collector.github.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com collector.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"D425:4763:1FDD004:4995924:622F5A23"}
+[debug] [2022-03-14T15:06:39.524Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-03-14T15:06:40.978Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-03-14T15:06:40.979Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"lordkitsune28","id":92535945,"node_id":"U_kgDOBYP8iQ","avatar_url":"https://avatars.githubusercontent.com/u/92535945?v=4","gravatar_id":"","url":"https://api.github.com/users/lordkitsune28","html_url":"https://github.com/lordkitsune28","followers_url":"https://api.github.com/users/lordkitsune28/followers","following_url":"https://api.github.com/users/lordkitsune28/following{/other_user}","gists_url":"https://api.github.com/users/lordkitsune28/gists{/gist_id}","starred_url":"https://api.github.com/users/lordkitsune28/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lordkitsune28/subscriptions","organizations_url":"https://api.github.com/users/lordkitsune28/orgs","repos_url":"https://api.github.com/users/lordkitsune28/repos","events_url":"https://api.github.com/users/lordkitsune28/events{/privacy}","received_events_url":"https://api.github.com/users/lordkitsune28/received_events","type":"User","site_admin":false,"name":"carlos medina","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"soy un chico calmado que se adapta a los retos que van llegando","twitter_username":null,"public_repos":17,"public_gists":0,"followers":0,"following":1,"created_at":"2021-10-14T15:32:40Z","updated_at":"2022-01-16T15:44:15Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":5557,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as lordkitsune28 
+[info] 
+[debug] [2022-03-14T15:07:12.768Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-03-14T15:07:13.951Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-03-14T15:07:13.953Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-03-14T15:08:20.979Z] >>> [apiv2][query] GET https://api.github.com/repos/lordkitsune28//actions/secrets/public-key type=owner
+[debug] [2022-03-14T15:08:21.676Z] <<< [apiv2][status] GET https://api.github.com/repos/lordkitsune28//actions/secrets/public-key 404
+[debug] [2022-03-14T15:08:21.677Z] <<< [apiv2][body] GET https://api.github.com/repos/lordkitsune28//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-03-14T15:08:26.298Z] >>> [apiv2][query] GET https://api.github.com/repos/lordkitsune28//actions/secrets/public-key type=owner
+[debug] [2022-03-14T15:08:27.114Z] <<< [apiv2][status] GET https://api.github.com/repos/lordkitsune28//actions/secrets/public-key 404
+[debug] [2022-03-14T15:08:27.115Z] <<< [apiv2][body] GET https://api.github.com/repos/lordkitsune28//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}

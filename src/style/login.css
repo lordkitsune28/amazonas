@@ -1,0 +1,63 @@
+.form{
+    border: 1px solid #565959;
+    border-radius: 10px;
+}
+
+.google-btn, .facebook-btn{
+    border: 1px solid #5659596c;
+    width: 80%;
+    height: 50px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(235, 235, 235) 40%, #565959 100%) !important;
+}
+
+.google-btn:active, .facebook-btn:active {
+  color: white;
+  background-color: #5659596c;
+    box-shadow: 0px 3px white;
+
+}
+
+.facebook-icon{
+    width: 25px;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px !important;
+}
+
+input:focus{
+    box-shadow: 0px 0px 10px 5px gold;
+
+}
+
+.button{
+    width: 100% !important;
+    height: 40px;
+    background: linear-gradient(180deg, gold 10%, #a88734 100%) !important;
+    border-radius: 5px;
+    border: 0.1px solid #565959;
+    margin-bottom: 20px !important;
+}
+
+.register-btn{
+    border: 1px solid #5659596c;
+    width: 50%;
+    height: 50px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(235, 235, 235) 40%, #565959 100%) !important;
+    text-decoration: none;
+    color: black;
+}
